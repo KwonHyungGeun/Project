@@ -1,0 +1,477 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#edge{
+    background-color: #0a0d04;
+    width: 100%;
+    height: 2000px;
+}
+#mainheader {
+    width: 100%;
+    height: 145px;
+    border-bottom: 1px solid white; 
+    background-image: url("img/footer.png");
+    
+}
+#footer{
+    width: 100%;
+    height: 145px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: calc(2000px - 145px);
+    background-image: url("img/footer.png");
+}
+#mainlogo {
+    width: 35%;
+    height: 145px;
+    float: left;
+    
+}
+#mainlogodiv {
+	width:100%;
+	height:120px;
+	margin-top:10px;
+	text-align:center;
+}
+#mainlogoimg {
+	
+}
+#mainlogoimg:hover {
+	cursor: pointer;
+	opacity:0.9;
+}
+#menu {
+    width: 65%;
+    height: 15vh;
+    float: right;
+}
+#menudiv {
+    margin-left: calc((100% - (150px * 5)) / 2);
+    margin-top: calc((145px - 5vh) / 2);
+}
+#menuintroduce {
+    float: left;
+}
+#menuchart{
+    float: left;
+}
+#menufreeboard {
+    float: left;
+}
+#menulogin {
+    float: left;
+}
+#menuregister {
+    float: left;
+}
+.menuicon{
+    margin-top: 10px;
+    float: left;
+    margin-left: 15px;
+}
+.menuicon img {
+    width: 40px;
+    height: 40px;
+}
+.menutext {
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+
+}
+
+.menubtn {
+    width: 150px;
+    height: 60px;
+    outline: 0;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    
+}
+.menubtn:hover > .menutext{
+    color: black;
+}
+.menubtn:hover {
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+
+#footer #contentfooter {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+#footer #snsfooter {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.footericonbtn {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#footericoncontainer {
+    margin-right: 80px;
+}
+.footericonbtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#boarddetail {
+    width: 80%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 10%;
+    background-color: #0a0d04;
+    color: white;
+}
+#boarddetail h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+#detailtable {
+    width: 100%;
+}
+#thead {
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    
+}
+#thead th {
+    border: 1px solid white;
+}
+#detailinfo {
+    width: 100%;
+    height: 50px;
+}
+.view_num {
+    width: 5%;
+    text-align: center;
+}
+.view_title {
+    width: 60%;
+    text-align: center;
+}
+.view_name {
+    width: 12.5%;
+    text-align: center;
+}
+.view_date {
+    width: 12.5%;
+    text-align: center;
+}
+.view_count {
+    width: 5%;
+    text-align: center;
+}
+.comment_no {
+    width: 5%;
+    text-align: center;
+}
+.comment_num {
+    width: 5%;
+    text-align: center;
+}
+
+.comment_content {
+    width: 65%;
+}
+.comment_name {
+    width: 12.5%;
+    text-align: center;
+}
+.comment_date {
+    width: 12.5%;
+    text-align: center;
+}
+
+.comment_btn {
+    width: 5%;
+    text-align: center;
+}
+.view_btn {
+    width: 5%;
+    text-align: center;
+}
+#detailresource {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #0a0d04;
+    text-align: center;
+    
+}
+#detailresource td {
+    border: 1px solid white;
+}
+#content {
+    width: 100%;
+    height: 500px;
+    background-color: #0a0d04;
+}
+#contenttitle {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+#viewcontent{
+    color: white;
+    word-break: break-all;
+    border: 1px solid white;
+}
+#detailbtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+#back {
+    outline: 0;
+    width: 90px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+#update {
+    outline: 0;
+    width: 90px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+#delete {
+    outline: 0;
+    width: 90px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+#back:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#update:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#delete:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#comment {
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+#comment h1 {
+    text-align: center;
+    color: white;
+}
+#commentcontent {
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#commentcomplete {
+    height: 80px;
+    margin-top: 10px;
+    outline: 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid white;
+}
+#commentcomplete:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#commentlist h1 {
+    text-align: center;
+    
+}
+#commenttable {
+    width: 100%;
+    color: white;
+}
+#commentthead {
+    border: 1px solid black;
+    background-color: gray;
+    color: blakc;
+    
+}
+#commentthead th {
+    border: 1px solid white;
+}
+#commentinfo {
+    width: 100%;
+    height: 50px;
+}
+.commentresource {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #0a0d04;
+    text-align: center;
+    
+}
+.commentresource td {
+    border-bottom: 1px solid white;
+}
+.commentdelbtn {
+    outline: 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    width: 43px;
+    height: 23px;
+}
+
+
+.commentdelbtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#page {
+	width:100%;
+	height:100px;
+	margin-top:20px;
+	text-align:center;
+	color:white;
+}
+#pagediv {
+	width:60%;
+	height:100px;
+	margin-top:20px;
+	margin-left:20%;
+	text-align:center;
+	color:white;
+}
+.pagebtn {
+	width:25px;
+	height:25px;
+	text-align:center;
+	color:white;
+	outline:0;
+	background-color:black;
+	border:1px solid white;
+	margin-left:4px;
+	margin-right:4px;
+}
+.pagebtn:hover {
+	background-color:white;
+	color:black;
+	cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top:56px;
+    background-color: #0a0d04;
+    width: 150px;
+    height: 245px;
+    z-index: 1;
+    border:2px solid black;
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdowndiv {
+	width:100%;
+	height:40px;
+	border-bottom : 2px solid white;
+	padding-top:20px;
+}
+.drowimg {
+	float:left;
+	margin-left:20px;
+	margin-right:5px;
+	width:25px;
+	height:25px;
+	
+	
+}
+.dropdowndiv:hover {
+	background-color:lightgray;
+	color:black;
+	cursor: pointer;
+}
+
+.animation {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    }
+
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(5%);
+        } 
+    }
+    
+#fc {
+	margin-left:30px;
+	margin-top:10px;
+}
+
+
+

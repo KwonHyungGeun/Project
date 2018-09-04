@@ -1,0 +1,414 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#edge{
+    background-color: #333333;
+    width: 100%;
+    height: 2000px;
+}
+#mainheader {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid white; 
+    background-image: url("img/footer.png");
+    
+}
+#footer{
+    width: 100%;
+    height: 15vh;
+    border-top: 1px solid white;
+    position: absolute;
+    top: calc(2000px - 15vh);
+    background-image: url("img/footer.png");
+}
+#mainlogo {
+    width: 35%;
+    height: 15vh;
+    float: left;
+    
+}
+#mainlogodiv {
+	width:100%;
+	height:120px;
+	margin-top:10px;
+	text-align:center;
+}
+#mainlogoimg {
+	width:250px;
+	height:100px;
+}
+#mainlogoimg:hover {
+	cursor: pointer;
+	opacity:0.9;
+}
+#menu {
+    width: 65%;
+    height: 15vh;
+    float: right;
+}
+#menudiv {
+    margin-left: calc((100% - (150px * 5)) / 2);
+    margin-top: calc((15vh - 5vh) / 2);
+}
+#menuintroduce {
+    float: left;
+}
+#menuchart{
+    float: left;
+}
+#menufreeboard {
+    float: left;
+}
+#menulogin {
+    float: left;
+}
+#menuregister {
+    float: left;
+}
+.menuicon{
+    margin-top: 10px;
+    float: left;
+    margin-left: 15px;
+}
+.menuicon img {
+    width: 40px;
+    height: 40px;
+}
+.menutext {
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+
+}
+
+.menubtn {
+    width: 150px;
+    height: 60px;
+    outline: 0;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    
+}
+.menubtn:hover > .menutext{
+    color: black;
+}
+.menubtn:hover {
+    cursor: pointer;
+    background-color: white;
+    
+}
+.menubtn:hover > div > #inimg {
+    content: url(img/blackintroduce.png);
+}
+.menubtn:hover > div > #bcimg {
+    content: url(img/blackchart.png);
+}
+.menubtn:hover > div > #bbimg {
+    content: url(img/blackfreeboard.png);
+}
+.menubtn:hover > div > #blimg {
+    content: url(img/blacklogin.png);
+}
+.menubtn:hover > div > #brimg {
+    content: url(img/blackregister.png);
+}
+.menubtn:hover > div > #blogoutimg {
+    content: url(img/blacklogout.png);
+}
+#footer #contentfooter {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+#footer #snsfooter {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.footericonbtn {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#footericoncontainer {
+    margin-right: 80px;
+}
+.footericonbtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.footericonbtn:hover > #facebook {
+    content: url(img/blackfacebook.png);
+}
+.footericonbtn:hover > #instagram {
+    content: url(img/blackinstagram.png);
+}
+.footericonbtn:hover > #twitter {
+    content: url(img/blacktwitter.png);
+}
+
+
+
+#francecontent {
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+#francelogo{
+    width: 100%;
+    margin-top: 40px;
+}
+#francecontent h1 {
+    color: white;
+    text-align: center;
+}
+#logo{
+    float: left;
+    width: 40%;
+}
+#explain {
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: calc(60% - 2px);
+    float: right;
+}
+#explain p {
+    margin-left: 5px;
+}
+
+#year {
+    width: 80%;
+    margin-top: 400px;
+    margin-left: 10%;
+    text-align:center;
+}
+#yearselect {
+    width: 15%;
+    height: 40px;
+    outline: 0;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+#selectcomplete {
+    width: 10%;
+    height: 40px;
+    outline: 0;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#selectcomplete:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+#teamlistrowdiv {
+	display:none;
+	width:80%;
+	margin-left:10%;
+	color: white;
+	text-align:center;
+	margin-top:500px;
+	
+}
+#teamlistrow {
+	width:1050px;
+	margin-left:calc((100% - 1050px) / 2);
+	font-weight: bold;
+    font-size: 18px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    text-align:center;
+}
+.teamlist {
+	font-weight: bold;
+	float:left;
+	width:250px;
+    font-size: 18px;
+    height: 35px;
+    background-color: #333333;
+    color: white;
+    margin: 5px 5px;
+}
+.teamname {
+	font-weight: bold;
+    font-size: 18px;
+    width:250px;
+    height: 35px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+}
+
+.teamname:hover {
+	cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.h200 {
+	height: 40vh;
+	border: 1px solid black;
+	background-color: gray;
+	}
+
+.container {
+	width:90%;
+	margin-left:5%;
+	margin-top:100px;
+	border: 1px solid black;
+	background-color: white;
+	display:none;
+	color:black
+}
+.row {
+	margin-left:0;
+	margin-right:0;
+}
+
+
+
+
+
+
+
+
+
+/* 여기부터 클럽 차트 생성*/
+#logodiv {
+	width:300px;
+	height:300px;
+	text-align:center;
+	margin-top:50px;
+	margin-left:140px;
+}
+
+
+.clublogo {
+	width:200px;
+	height:200px;
+}
+#clubnamediv {
+	width:300px;
+	height:300px;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	margin-top:170px;
+	margin-left:140px;
+	
+}
+
+#clubplaydiv {
+	text-align:center;
+	margin-top:85px;
+}
+
+#loading {
+	width:100%;
+	height:100vh;
+	text-align:center;
+	display:none;
+	opacity:0.9;
+	z-index:9000;
+	background-color:black;
+	color:white;
+	position:fixed;
+}
+#loading img {
+	width:150px;
+	height:150px;
+	margin-top: calc((80vh - 150px) / 2);
+}
+#loading h4 {
+	margin-top: calc((50vh - 80px) / 2);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top:56px;
+    background-color: #333333;
+    width: 150px;
+    height: 240px;
+    z-index: 1;
+    border:2px solid black;
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdowndiv {
+	width:100%;
+	height:60px;
+	border-bottom : 2px solid white;
+	padding-top:20px;
+}
+.drowimg {
+	float:left;
+	margin-left:20px;
+	margin-right:5px;
+	width:25px;
+	height:25px;
+	
+}
+.dropdowndiv:hover {
+	background-color:lightgray;
+	color:black;
+	cursor: pointer;
+}
+
+.animation {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    }
+
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(5%);
+        } 
+    }
+

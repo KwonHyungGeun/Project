@@ -1,0 +1,322 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#edge{
+    background-color: #0a0d04;
+    width: 100%;
+    height: 1200px;
+}
+#mainheader {
+    width: 100%;
+    height: 145px;
+    border-bottom: 1px solid white; 
+    background-image: url("img/footer.png");
+    
+}
+#footer{
+    width: 100%;
+    height: 145px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: calc(1200px - 145px);
+    background-image: url("img/footer.png");
+}
+#mainlogo {
+    width: 35%;
+    height: 145px;
+    float: left;
+    
+}
+#mainlogodiv {
+	width:100%;
+	height:120px;
+	margin-top:10px;
+	text-align:center;
+}
+#mainlogoimg {
+	
+}
+#mainlogoimg:hover {
+	cursor: pointer;
+	opacity:0.9;
+}
+#menu {
+    width: 65%;
+    height: 145px;
+    float: right;
+}
+#menudiv {
+    margin-left: calc((100% - (150px * 5)) / 2);
+    margin-top: calc((145px - 5vh) / 2);
+}
+#menuintroduce {
+    float: left;
+}
+#menuchart{
+    float: left;
+}
+#menufreeboard {
+    float: left;
+}
+#menulogin {
+    float: left;
+}
+#menuregister {
+    float: left;
+}
+.menuicon{
+    margin-top: 10px;
+    float: left;
+    margin-left: 15px;
+}
+.menuicon img {
+    width: 40px;
+    height: 40px;
+}
+.menutext {
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+
+}
+
+.menubtn {
+    width: 150px;
+    height: 60px;
+    outline: 0;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    
+}
+.menubtn:hover > .menutext{
+    color: black;
+}
+.menubtn:hover {
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+
+#footer #contentfooter {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+#footer #snsfooter {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.footericonbtn {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#footericoncontainer {
+    margin-right: 80px;
+}
+.footericonbtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/*여기까지가 기본 헤더 푸터 설정*/
+#register {
+    width: 80%;
+    height: calc(1200px - 40vh);
+    margin-top: 5vh;
+    margin-left: 10%;
+    background-color: #0a0d04;
+    color: white;
+}
+#register h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+#regsterdiv {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+#userinfo {
+    margin-left: 20px;
+}
+#idbox {
+    width: 50%;
+    height: 40px;
+    outline: 0;
+    background-color: #0a0d04;
+    color: white;
+    font-weight:bold;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+#pwdbox {
+    width: 50%;
+    height: 40px;
+    outline: 0;
+    background-color: #0a0d04;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-weight:bold;
+}
+#checkpwdbox {
+    width: 50%;
+    height: 40px;
+    outline: 0;
+    background-color: #0a0d04;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-weight:bold;
+}
+#namebox {
+    width: 50%;
+    height: 40px;
+    outline: 0;
+    background-color: #0a0d04;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-weight:bold;
+}
+#phonebox {
+    width: 50%;
+    height: 40px;
+    outline: 0;
+    background-color: #0a0d04;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-weight:bold;
+}
+#idtext {
+    float: left;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#pwdtext {
+    float: left;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#checkpwdtext {
+    float: left;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#nametext {
+    float: left;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#phonetext {
+    float: left;
+    margin-left: 25%;
+    font-weight: bold;
+}
+#buttondiv {
+    margin-top: 20px;
+    margin-left: 2%;
+}
+#registerbtn {
+    width: 50%;
+    height: 70px;
+    outline: 0;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 0;
+}
+
+#registerbtn:hover {
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top:56px;
+    background-color: #0a0d04;
+    width: 150px;
+    height: 245px;
+    z-index: 1;
+    border:2px solid black;
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdowndiv {
+	width:100%;
+	height:40px;
+	border-bottom : 2px solid white;
+	padding-top:20px;
+}
+.drowimg {
+	float:left;
+	margin-left:20px;
+	margin-right:5px;
+	width:25px;
+	height:25px;
+	
+}
+.dropdowndiv:hover {
+	background-color:lightgray;
+	color:black;
+	cursor: pointer;
+}
+
+.animation {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    }
+
+    @-webkit-keyframes slide {
+        0% {
+            opacity: 0;
+            transform: translateY(5%);
+        } 
+    }
+
+#fc {
+	margin-left:30px;
+	margin-top:10px;
+}
